@@ -6,7 +6,7 @@ import 'package:weather_app/activity/location.dart';
 void main() {
   runApp(MaterialApp(
     routes: {
-      "/ ": (context) => Loading(),
+      "/": (context) => Loading(),
       "/home": (context) => Home(),
       "/location": (context) => Location(),
     },
