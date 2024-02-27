@@ -19,7 +19,7 @@ class _LoadingState extends State<Loading> {
                   Navigator.pushNamed(context, '/home');
                 },
                 icon: Icon(Icons.add_to_home_screen),
-                label: Text("Go To Home Screen"))
+                label: Text("Go To Home"))
           ],
         ),
       ),
