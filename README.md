@@ -10,3 +10,4 @@ A simple Flutter app that displays current weather and forecasts based on the us
 
 <img src="https://github.com/UjasBhatt10/Weather_App/assets/114408820/45c2900a-a123-416d-b3b7-bbd538fc1c76" width=300 height=600/> 
 
+
