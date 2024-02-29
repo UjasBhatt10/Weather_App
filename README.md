@@ -8,6 +8,13 @@ A simple Flutter app that displays current weather and forecasts based on the us
 
 ## Screenshots
 
-<img src="https://github.com/UjasBhatt10/Weather_App/assets/114408820/45c2900a-a123-416d-b3b7-bbd538fc1c76" width=300 height=600/> 
+<img src="https://github.com/UjasBhatt10/Weather_App/assets/114408820/45c2900a-a123-416d-b3b7-bbd538fc1c76" width=250 height=500/> 
+
+<img src="https://github.com/UjasBhatt10/Weather_App/assets/114408820/5e97aabc-b6f8-486e-9483-f2dd5a113d8a" width=250 height=500/> 
+
+<img src="https://github.com/UjasBhatt10/Weather_App/assets/114408820/61d18b9a-96e1-42b5-99d0-3cbfd86408dd" width=250 height=500/> 
+
+
+
 
 
