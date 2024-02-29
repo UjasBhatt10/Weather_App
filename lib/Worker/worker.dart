@@ -15,12 +15,13 @@ class worker {
   String air_speed = "";
   String description = "";
   String main = "";
+  String icon = "";
 
   //method =
   Future<void> getData() async {
     try {
       Response response = await get(Uri.parse(
-          "http://api.openweathermap.org/data/2.5/weather?q=$location&appid=0c944be86c16726845100f08568ff82c"));
+          "http://api.openweathermap.org/data/2.5/weather?q=$location&appid={API Key}"));
 
       Map data = jsonDecode(response.body);
 
@@ -45,12 +46,14 @@ class worker {
       air_speed = getAir_speed.toString();
       description = getDesc;
       main = getMain_des;
+      icon = weather_main_data["icon"].toString();
     } catch (e) {
-      temp = "Can't find weather data";
-      humidity = "Can't find weather data";
-      air_speed = "Can't find weather data";
+      temp = "NA";
+      humidity = "NA";
+      air_speed = "NA";
       description = "Can't find weather data";
-      main = "Can't find weather data";
+      main = "NA";
+      icon = "03n";
     }
   }
 }
